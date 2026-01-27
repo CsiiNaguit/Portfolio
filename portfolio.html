@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <meta name="description" content="This is a portfolio website showcasing my projects and skills.">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+
+        <section id="about-me">
+                <h2>About Me</h2>
+                <p>Hello! I'm <strong>Christian James N. Ignacio</strong>, a <strong>BSIT Student</strong> from <strong>Central Luzon State University</strong>. I specialize in <strong>Systems Development</strong> and have a passion for creating innovative solutions.</p>
+            <img src="assets/pic.png" alt="My Profile Picture" width="200">
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>DentiCare</td>
+                        <td>A Monitoring and Appointment Management System</td>
+                        <td>2025</td>   
+                    </tr>
+                    <tr>
+                        <td>Beats</td>
+                        <td>A Website Music Streaming Platform.</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>CLSU - College of Engineering Portal</td>
+                        <td>A Website Portal showcasing the College of Engineering.</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <div class="radio-group">
+                    <p>How did you hear about this portfolio?</p>
+                    <input type="radio" id="friend" name="source" value="friend" checked>
+                    <label for="friend">Friend</label><br>
+                    <input type="radio" id="social_media" name="source" value="social_media">
+                    <label for="social_media">Social Media</label><br>
+                    <input type="radio" id="search_engine" name="source" value="search_engine">
+                    <label for="search_engine">Search Engine</label><br>
+                    <input type="radio" id="other" name="source" value="other">
+                    <label for="other">Other</label>
+                </div><br>
+
+                <div class="checkbox-group">
+                    <p>Skills /Interest</p>
+                    <input type="checkbox" id="web_development" name="web_development" value="web_development">
+                    <label for="web_development">Web Development</label><br>
+                    <input type="checkbox" id="design" name="design" value="design">
+                    <label for="design">Design</label><br>
+                    <input type="checkbox" id="sports" name="sports" value="sports">
+                    <label for="sports">Sports</label><br>
+                </div>
+                <br><br>
+                <label for="message">Comments or Messages:</label><br>
+                <textarea id="message" name="message" placeholder="Your message here..."></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>        
+    <footer>
+        <p>© 2026 </p>
+    </footer>
+    </body>
+</html>
